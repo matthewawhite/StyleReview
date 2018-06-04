@@ -16,4 +16,4 @@ class StyleCheck   (   object    ):
 def f  (   val ):
     foo=3
     bar=4
-    return        37 - val[42 - foo:bar ** 3]
+    return        37 - val[42-foo  :    bar**3]
