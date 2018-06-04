@@ -8,8 +8,8 @@ a='hello {}'.format('world')
 class StyleCheck   (   object    ):
     @staticmethod
 
-    def f   (self  ):
-        return 37 * -2
+    def f   (foo  ):
+        return 37 * -2*foo
     @staticmethod
     def g( b, c=42):
         return   { b,c}
