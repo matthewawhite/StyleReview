@@ -10,8 +10,7 @@ class StyleCheck   (   object    ):
 
     def f   (foo  ):
         return 37 * -2*foo
-    @staticmethod
-    def g( b, c=42):
+    def g(self, b, c=42):
         return   { b,c}
 def f  (   val ):
     foo=3
